@@ -19,7 +19,7 @@ body {
 .section-center {
   width: 90%;
   max-width: 800px;
-  margin: 3em auto 0;
+  margin: 5em auto 0;
   text-align: center;
   min-height: 100%;
   margin-bottom: 20px;
@@ -36,7 +36,6 @@ body {
   padding-bottom: 10px;
   color: #dee7f0;
   padding-top: 1em;
-  font-family: cursive;
 }
 .fa-spinner {
   color: gold;
@@ -55,11 +54,11 @@ body {
   width: 100%;
 }
 #search {
-  width: 80%;
+  width: 95%;
   padding: 10px;
   background: none;
   border: 0;
-  background-color: #333;
+  background-color: #444;
   /* dee7f0 */
   outline: none;
   color: #fff;
@@ -74,7 +73,7 @@ body {
 }
 
 .btn-container {
-  margin: 2em 0 3em;
+  margin: 2em 0 5em;
 }
 .filter-btns {
   text-align: center;
@@ -115,7 +114,7 @@ button:active {
   border-radius: 8px;
   box-shadow: 0 5px 11px rgba(255, 255, 255, 0.05);
   position: relative;
-  transition: border 0.5s ease-out;
+  transition: border 0.3s ease-out;
 }
 .card:hover {
   border: 1px solid #dee7f0;
@@ -150,7 +149,7 @@ button:active {
   font-style: italic;
 }
 footer {
-  background-color: #222;
+  background-color: #444;
   text-align: center;
   height: 80px;
   display: flex;
@@ -163,7 +162,6 @@ footer p {
   width: 90%;
   margin: 0 auto;
   letter-spacing: 1px;
-  font-family: cursive;
 }
 footer p span:not(#date) {
   color: gold;
