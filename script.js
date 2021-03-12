@@ -5,7 +5,7 @@ const input = document.querySelector('#search');
 const date = document.querySelector('#date');
 const err = document.querySelector('.err');
 
-// DATE //\r\n
+// DATE
 const myDate = new Date().getFullYear();
 date.innerHTML = myDate;
 
@@ -38,7 +38,7 @@ const fetchData = async () => {
         });
       });
     }
-    // search throught
+    // search through
     if (response) {
       input.addEventListener('keyup', () => {
         let searchWord = input.value;
@@ -55,7 +55,7 @@ const fetchData = async () => {
           }
         });
         if (data_results.length === 0) {
-          err.innerHTML = 'oops! match not found 😟';
+          err.innerHTML = 'oops! match not founds 😟';
         } else {
           err.innerHTML = '';
         }

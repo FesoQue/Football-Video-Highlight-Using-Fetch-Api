@@ -19,10 +19,9 @@ body {
 .section-center {
   width: 90%;
   max-width: 800px;
-  margin: 5em auto 0;
+  margin: 5em auto 6em;
   text-align: center;
   min-height: 100%;
-  margin-bottom: 20px;
 }
 .title {
   color: #fff;
@@ -73,7 +72,7 @@ body {
 }
 
 .btn-container {
-  margin: 2em 0 3em;
+  margin: 2em 0 6em;
 }
 .filter-btns {
   text-align: center;
@@ -114,7 +113,7 @@ button:active {
   border-radius: 8px;
   box-shadow: 0 5px 11px rgba(255, 255, 255, 0.05);
   position: relative;
-  transition: border 0.3s ease-out;
+  transition: border 0.2s ease-out;
 }
 .card:hover {
   border: 1px solid #dee7f0;
@@ -161,7 +160,7 @@ footer p {
   font-size: 16px;
   width: 90%;
   margin: 0 auto;
-  letter-spacing: 1px;
+  letter-spacing: 0.7px;
 }
 footer p span:not(#date) {
   color: gold;
