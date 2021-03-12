@@ -41,21 +41,21 @@ const fetchData = async () => {
     // search through
     if (response) {
       input.addEventListener('keyup', () => {
-        let searchWord = input.value;
+        let searchWord = input.value.toLowerCase();
         let data_results = [];
         data_results = data.filter((club) => {
           let sideA = club.side1.name;
           let sideB = club.side2.name;
           let res = club.competition;
           if (
-            sideA.toLowerCase().includes(searchWord) ||
+            sideA.includes(searchWord) ||
             sideB.toLowerCase().includes(searchWord)
           ) {
             return res;
           }
         });
         if (data_results.length === 0) {
-          err.innerHTML = 'oops! match not founds 😟';
+          err.innerHTML = 'oops! match not found 😟';
         } else {
           err.innerHTML = '';
         }
