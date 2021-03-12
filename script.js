@@ -54,6 +54,7 @@ const fetchData = async () => {
             return res;
           }
         });
+
         if (data_results.length === 0) {
           err.innerHTML = 'oops! match not found 😟';
         } else {
